@@ -14,6 +14,7 @@
 		464963901EB98418008D141F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4649638E1EB98418008D141F /* Main.storyboard */; };
 		464963921EB98418008D141F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 464963911EB98418008D141F /* Assets.xcassets */; };
 		464963951EB98419008D141F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464963931EB98419008D141F /* LaunchScreen.storyboard */; };
+		465FBDFB1EBB326D00F9E656 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 465FBDFA1EBB326D00F9E656 /* GreenView.m */; };
 		CA41809FF4F2B0C9C9C126E8 /* Pods_LXReactiveCocoa_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B52E302ABA2184F4678A276 /* Pods_LXReactiveCocoa_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,8 @@
 		464963911EB98418008D141F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		464963941EB98419008D141F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		464963961EB98419008D141F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		465FBDF91EBB326D00F9E656 /* GreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GreenView.h; path = FirstView/GreenView.h; sourceTree = "<group>"; };
+		465FBDFA1EBB326D00F9E656 /* GreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GreenView.m; path = FirstView/GreenView.m; sourceTree = "<group>"; };
 		4B52E302ABA2184F4678A276 /* Pods_LXReactiveCocoa_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXReactiveCocoa_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2587EF3621C8F6CEC9BA039 /* Pods-LXReactiveCocoa_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXReactiveCocoa_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXReactiveCocoa_Demo/Pods-LXReactiveCocoa_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -78,10 +81,8 @@
 			children = (
 				464963851EB98418008D141F /* AppDelegate.h */,
 				464963861EB98418008D141F /* AppDelegate.m */,
-				464963881EB98418008D141F /* FirstViewController.h */,
-				464963891EB98418008D141F /* FirstViewController.m */,
-				4649638B1EB98418008D141F /* SecondViewController.h */,
-				4649638C1EB98418008D141F /* SecondViewController.m */,
+				465FBDF81EBB324000F9E656 /* FirstVC */,
+				465FBDFC1EBB4F4700F9E656 /* SecondVC */,
 				4649638E1EB98418008D141F /* Main.storyboard */,
 				464963911EB98418008D141F /* Assets.xcassets */,
 				464963931EB98419008D141F /* LaunchScreen.storyboard */,
@@ -97,6 +98,26 @@
 				464963831EB98418008D141F /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		465FBDF81EBB324000F9E656 /* FirstVC */ = {
+			isa = PBXGroup;
+			children = (
+				464963881EB98418008D141F /* FirstViewController.h */,
+				464963891EB98418008D141F /* FirstViewController.m */,
+				465FBDF91EBB326D00F9E656 /* GreenView.h */,
+				465FBDFA1EBB326D00F9E656 /* GreenView.m */,
+			);
+			name = FirstVC;
+			sourceTree = "<group>";
+		};
+		465FBDFC1EBB4F4700F9E656 /* SecondVC */ = {
+			isa = PBXGroup;
+			children = (
+				4649638B1EB98418008D141F /* SecondViewController.h */,
+				4649638C1EB98418008D141F /* SecondViewController.m */,
+			);
+			name = SecondVC;
 			sourceTree = "<group>";
 		};
 		4C1C71C49A4C90F9A1B79C35 /* Pods */ = {
@@ -232,6 +253,7 @@
 			files = (
 				4649638D1EB98418008D141F /* SecondViewController.m in Sources */,
 				464963871EB98418008D141F /* AppDelegate.m in Sources */,
+				465FBDFB1EBB326D00F9E656 /* GreenView.m in Sources */,
 				4649638A1EB98418008D141F /* FirstViewController.m in Sources */,
 				464963841EB98418008D141F /* main.m in Sources */,
 			);
@@ -392,6 +414,7 @@
 				4649639B1EB98419008D141F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
