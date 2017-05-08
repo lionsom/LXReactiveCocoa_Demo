@@ -16,6 +16,7 @@
 		464963951EB98419008D141F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 464963931EB98419008D141F /* LaunchScreen.storyboard */; };
 		465FBDFB1EBB326D00F9E656 /* GreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 465FBDFA1EBB326D00F9E656 /* GreenView.m */; };
 		468B88761EC0146900CFBBA7 /* Weak_StrongVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 468B88751EC0146900CFBBA7 /* Weak_StrongVC.m */; };
+		468B887A1EC0208700CFBBA7 /* ThirdVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 468B88791EC0208700CFBBA7 /* ThirdVC.m */; };
 		CA41809FF4F2B0C9C9C126E8 /* Pods_LXReactiveCocoa_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B52E302ABA2184F4678A276 /* Pods_LXReactiveCocoa_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +38,8 @@
 		465FBDFA1EBB326D00F9E656 /* GreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GreenView.m; path = FirstView/GreenView.m; sourceTree = "<group>"; };
 		468B88741EC0146900CFBBA7 /* Weak_StrongVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Weak_StrongVC.h; path = SecondVC/Weak_StrongVC.h; sourceTree = "<group>"; };
 		468B88751EC0146900CFBBA7 /* Weak_StrongVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Weak_StrongVC.m; path = SecondVC/Weak_StrongVC.m; sourceTree = "<group>"; };
+		468B88781EC0208700CFBBA7 /* ThirdVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ThirdVC.h; path = ThirdVC/ThirdVC.h; sourceTree = "<group>"; };
+		468B88791EC0208700CFBBA7 /* ThirdVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ThirdVC.m; path = ThirdVC/ThirdVC.m; sourceTree = "<group>"; };
 		4B52E302ABA2184F4678A276 /* Pods_LXReactiveCocoa_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LXReactiveCocoa_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C2587EF3621C8F6CEC9BA039 /* Pods-LXReactiveCocoa_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LXReactiveCocoa_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LXReactiveCocoa_Demo/Pods-LXReactiveCocoa_Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -86,6 +89,7 @@
 				464963861EB98418008D141F /* AppDelegate.m */,
 				465FBDF81EBB324000F9E656 /* FirstVC */,
 				465FBDFC1EBB4F4700F9E656 /* SecondVC */,
+				468B88771EC0201A00CFBBA7 /* ThirdVC */,
 				4649638E1EB98418008D141F /* Main.storyboard */,
 				464963911EB98418008D141F /* Assets.xcassets */,
 				464963931EB98419008D141F /* LaunchScreen.storyboard */,
@@ -123,6 +127,15 @@
 				468B88751EC0146900CFBBA7 /* Weak_StrongVC.m */,
 			);
 			name = SecondVC;
+			sourceTree = "<group>";
+		};
+		468B88771EC0201A00CFBBA7 /* ThirdVC */ = {
+			isa = PBXGroup;
+			children = (
+				468B88781EC0208700CFBBA7 /* ThirdVC.h */,
+				468B88791EC0208700CFBBA7 /* ThirdVC.m */,
+			);
+			name = ThirdVC;
 			sourceTree = "<group>";
 		};
 		4C1C71C49A4C90F9A1B79C35 /* Pods */ = {
@@ -256,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				468B887A1EC0208700CFBBA7 /* ThirdVC.m in Sources */,
 				4649638D1EB98418008D141F /* SecondViewController.m in Sources */,
 				464963871EB98418008D141F /* AppDelegate.m in Sources */,
 				465FBDFB1EBB326D00F9E656 /* GreenView.m in Sources */,

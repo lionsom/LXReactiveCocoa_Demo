@@ -9,11 +9,11 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Item-->
+        <!--first-->
         <scene sceneID="fC2-eD-qVY">
             <objects>
                 <navigationController navigationBarHidden="YES" id="api-fY-jUf" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Item" id="AKU-xh-LVh"/>
+                    <tabBarItem key="tabBarItem" title="first" id="AKU-xh-LVh"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="vSX-0T-lrL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
@@ -168,6 +168,34 @@
             </objects>
             <point key="canvasLocation" x="1510" y="499"/>
         </scene>
+        <!--Third-->
+        <scene sceneID="Mhl-Ny-21j">
+            <objects>
+                <viewController id="GJf-8d-Aw6" customClass="ThirdVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="53T-Qs-9an"/>
+                        <viewControllerLayoutGuide type="bottom" id="zLs-DX-637"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SFE-UT-XKs">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="AAA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eK1-4t-o9N">
+                                <rect key="frame" x="79" y="57" width="34" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Third" id="iJp-Ys-Gbp"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="OSz-u6-aT3" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1506" y="1256"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
@@ -181,6 +209,7 @@
                     <connections>
                         <segue destination="api-fY-jUf" kind="relationship" relationship="viewControllers" id="jHJ-Z0-W1Q"/>
                         <segue destination="8rJ-Kc-sve" kind="relationship" relationship="viewControllers" id="lzU-1b-eKA"/>
+                        <segue destination="GJf-8d-Aw6" kind="relationship" relationship="viewControllers" id="C3J-v5-FC7"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="HuB-VB-40B" sceneMemberID="firstResponder"/>
